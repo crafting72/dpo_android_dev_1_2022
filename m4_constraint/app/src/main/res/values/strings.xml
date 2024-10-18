@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">m4_constraint</string>
+    <string name="executor">Singer</string>
+    <string name="songName">Name song</string>
+</resources>

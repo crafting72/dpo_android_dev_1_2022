@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/albumCover"
+        app:srcCompat="@drawable/abbey_road_the_beatles"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </ImageView>
+
+    <ImageButton
+        android:id="@+id/buttonPlay"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/baseline_play_circle_filled_24"
+        app:layout_constraintTop_toBottomOf="@id/albumCover"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/skipNext"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/baseline_skip_next_24"
+        app:layout_constraintBottom_toBottomOf="@id/buttonPlay"
+        app:layout_constraintLeft_toRightOf="@+id/buttonPlay"
+        app:layout_constraintTop_toTopOf="@id/buttonPlay"
+        android:layout_marginLeft="16dp">
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/skipPrevious"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/baseline_skip_previous_24"
+        app:layout_constraintBottom_toBottomOf="@id/buttonPlay"
+        app:layout_constraintRight_toLeftOf="@+id/buttonPlay"
+        app:layout_constraintTop_toTopOf="@id/buttonPlay"
+        android:layout_marginRight="16dp">
+    </ImageButton>
+
+    <TextView
+        android:id="@+id/executor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/executor"
+        app:layout_constraintTop_toBottomOf="@id/buttonPlay"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black">
+    </TextView>
+
+    <TextView
+        android:id="@+id/songName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/executor"
+        android:layout_marginTop="16dp"
+        android:text="@string/songName"
+        android:textColor="@color/black">
+    </TextView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

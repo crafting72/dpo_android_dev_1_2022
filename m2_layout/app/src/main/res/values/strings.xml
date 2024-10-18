@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">homework</string>
+    <string name="app_name">m2_layout</string>
     <string name="downText">The bottom line</string>
     <string name="upText">The top line</string>
     <string name="upTextWithCode">The top line, configured from the code</string>

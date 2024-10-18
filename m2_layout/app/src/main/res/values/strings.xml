@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">homework</string>
+    <string name="downText">The bottom line</string>
+    <string name="upText">The top line</string>
+    <string name="upTextWithCode">The top line, configured from the code</string>
+    <string name="downTextWithCode">The bottom line, configured from the code</string>
+</resources>

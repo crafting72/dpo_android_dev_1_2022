@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">m1_hello_world</string>
+    <string name="EqualTo50">There are too many passengers!</string>
+    <string name="EqualTo0">All seats are available</string>
+    <string name="Plus">+</string>
+    <string name="Minus">-</string>
+    <string name="Account">0</string>
+    <string name="Reset">Reset</string>
+    <string name="places_left">There are still places left: </string>
+</resources>

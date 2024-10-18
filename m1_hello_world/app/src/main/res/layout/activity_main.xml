@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/equalTo50"
+        style="@style/Default.little.EqualTo50"
+        android:text="@string/EqualTo50"
+        android:visibility="invisible"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/EqualTo0"
+        style="@style/Default.little.EqualTo0"
+        android:text="@string/EqualTo0"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/lessThan50"
+        style="@style/Default.little.LessThan50"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/plus"
+        style="@style/Default.Big.Plus"
+        android:text="@string/Plus"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/minus"
+        style="@style/Default.Big.Minus"
+        android:text="@string/Minus"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/account"
+        style="@style/Default.Big.Account"
+        android:text="@string/Account"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/reset"
+        style="@style/Default.little.Reset"
+        android:text="@string/Reset"
+        android:visibility="invisible"/>
+
+</FrameLayout>

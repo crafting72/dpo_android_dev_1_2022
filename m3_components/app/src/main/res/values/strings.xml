@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">m3_components</string>
+    <string name="countTimer">10</string>
+    <string name="upText">Countdown Timer</string>
+    <string name="textButtonStart">START</string>
+    <string name="textButtonStop">STOP</string>
+    <string name="TimerFinish">Timer Task Finished</string>
+</resources>

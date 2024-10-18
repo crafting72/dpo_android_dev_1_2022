@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SkillboxText" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textColor">@color/black</item>
+        <item name="fontFamily">@font/proximanova_extrabold</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="SkillboxText.textSmall">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="SkillboxText.Big">
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="SkillboxText.Huge">
+        <item name="android:textSize">60sp</item>
+    </style>
+</resources>

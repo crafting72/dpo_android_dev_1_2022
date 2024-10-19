@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageViewBig"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:id="@+id/imageViewMed"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewBig" />
+
+    <ImageView
+        android:id="@+id/imageViewSmall"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageViewMed"/>
+
+    <Button
+        android:id="@+id/buttonUpdate"
+        android:text="@string/Update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <TextView
+        android:id="@+id/textInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/buttonUpdate"
+        tools:text="Info: 'seed': 'e959f6a7d481a9cf', 'results': 1, 'page': 1, 'version': '1.4'"
+        android:textSize="7sp"/>
+
+    <TextView
+        android:id="@+id/textForUser"
+        android:textSize="13sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/imageViewBig"
+        app:layout_constraintTop_toTopOf="@id/imageViewBig"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="Male\nMr Dawid Kaldestad\ndawid.kaldestad@example.com\ndob:
+1994-10-17T05:20:34.860Z, age: 28\nregistered: 2016-02-06T22:42:43.592Z, age: 7\nphone: 52379906
+\ncell: 45971375\nid: FN, 17109416924\nnat: NO"/>
+
+    <TextView
+        android:id="@+id/textForAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="7sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewMed"
+        app:layout_constraintTop_toBottomOf="@+id/textForUser"
+        tools:text="location: 1523, Norway, Telemark, Dale,\nLerkeveien 5454 (43.2915, -60.0024)
+\ntimezone: +9:00\n(Tokyo, Seoul, Osaka, Sapporo, Yakutsk)\nlogin:
+\nuuid: 36e871c7-aa8b-48fc-80d6-2eba745bff09\nusername: ticklishgorilla230\npassword: 99999999\n
+salt: MOITF7XW\nmd5: 05a5d5003ad850e81c5b1fceaeebb887\nsha1: 9e12e4224ae27f449e40f2837127a803d0085ec6\n
+sha256: 3c7674c16dc50029120f746a4a5a0fa03ce288cdd6b075b7b35529af9b1d80d2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

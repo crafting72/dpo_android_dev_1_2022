@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">m12_mvvm</string>
+    <string name="errorText1">Nothing was found for the \"</string>
+    <string name="errorText2">\" query.</string>
+    <string name="textInputLayout">Request</string>
+    <string name="button">Search</string>
+    <string name="textView">The result of the request will be displayed here:</string>
+</resources>

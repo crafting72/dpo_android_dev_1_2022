@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">m11_timer_data_storage</string>
+    <string name="textEditText">Enter a value to save:</string>
+    <string name="save">Save</string>
+    <string name="clear">Clear</string>
+</resources>

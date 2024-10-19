@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MindMeld</string>
+    <string name="Hello">Hello, take the survey</string>
+    <string name="nextScreen">Continue</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="first_fragment_label">Greeting</string>
+    <string name="second_fragment_label">Survey</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="upTextResult">After analyzing your answers, we have made the following conclusions:</string>
+    <string name="Replay">Start over</string>
+    <string name="Back">Back</string>
+    <string name="Send">Send</string>
+    <string name="third_fragment_label">Results</string>
+    <string name="dataPickerBirthday">Enter the date of birth</string>
+    <string name="yourBirthday">Your date of birth</string>
+</resources>

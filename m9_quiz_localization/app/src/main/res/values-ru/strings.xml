@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MindMeld</string>
+    <string name="nextScreen">Продолжить</string>
+    <string name="Hello">Здравствуйте, пройдите опрос</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="first_fragment_label">Приветствие</string>
+    <string name="second_fragment_label">Опрос</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="upTextResult">Проанализоровав Ваши ответы, мы сделали следующие выводы:</string>
+    <string name="Replay">Начать заново</string>
+    <string name="Back">Назад</string>
+    <string name="Send">Отправить</string>
+    <string name="third_fragment_label">Результаты</string>
+    <string name="dataPickerBirthday">Ввести дату рождения</string>
+    <string name="yourBirthday">Ваше дата рождения</string>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">m17_recyclerview</string>
+    <string name="refresh">Refresh</string>
+    <string name="take_a_caffeine_nap">Take a caffeine nap</string>
+    <string name="Camera">Camera: %1$s</string>
+    <string name="Rover">Rover: %1$s</string>
+    <string name="Sol">Sol: %1$d</string>
+    <string name="Date">Date: %1$s</string>
+</resources>

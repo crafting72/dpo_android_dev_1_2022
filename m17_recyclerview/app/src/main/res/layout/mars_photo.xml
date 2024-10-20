@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/mars_photo"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_margin="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <FrameLayout
+            android:background="@color/black"
+            android:alpha="0.5"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            app:layout_constraintBottom_toBottomOf="@+id/mars_photo"
+            app:layout_constraintEnd_toEndOf="@+id/mars_photo"
+            app:layout_constraintStart_toStartOf="@+id/mars_photo">
+
+            <TextView
+                android:paddingTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:id="@+id/rover"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Rover: Curiosity"
+                android:layout_gravity="start|top"/>
+
+            <TextView
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="4dp"
+                android:id="@+id/camera"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Camera: FHAZ"
+                android:layout_gravity="start|bottom"/>
+
+            <TextView
+                android:layout_marginBottom="4dp"
+                android:paddingTop="4dp"
+                android:id="@+id/sol"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Sol: 3344"
+                android:layout_gravity="end|top"/>
+
+            <TextView
+                android:layout_marginStart="4dp"
+                android:layout_marginBottom="4dp"
+                android:id="@+id/date"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="date: 2022-1-1"
+                android:layout_gravity="end|bottom"/>
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>

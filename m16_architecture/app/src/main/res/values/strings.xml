@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">m16_architecture</string>
+    <string name="refresh">Refresh</string>
+    <string name="take_a_caffeine_nap">Take a caffeine nap</string>
+</resources>

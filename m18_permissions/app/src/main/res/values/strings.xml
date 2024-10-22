@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">m18_permissions</string>
     <string name="button_text_in_MainFragment">Add a photo of the attraction</string>
+    <string name="take_photo">take photo</string>
 </resources>

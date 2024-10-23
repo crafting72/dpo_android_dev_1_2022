@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">m20_firebase</string>
+    <string name="button_text_in_MainFragment">Add a photo of the attraction</string>
+    <string name="take_photo">take photo</string>
+    <string name="speed">%.1f m/s</string>
+    <string name="open_google_map">Open Google map</string>
+    <string name="name">Test notification channel</string>
+    <string name="descriptionText">This is a simple description</string>
+</resources>

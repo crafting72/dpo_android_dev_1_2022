@@ -14,4 +14,5 @@ The texts inside the "Top Row" and "Bottom Row" widgets must be configured from 
 
 # The work of the program
 
-![](https://github.com/user-attachments/assets/98969827-6391-4fbf-b859-4fb0f3b1e927)
+![](https://github.com/user-attachments/assets/4f40e65b-8fef-48f1-8668-d8891f36ef95)
+

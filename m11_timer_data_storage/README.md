@@ -24,6 +24,7 @@ Let's create a single-screen application that allows you to enter data and write
   **clearText()** — will clear the value in both SharedPreference and local variable.
   
   **getText(): String** — will get the value from sources: first it will try to take the value of a local variable; if it is null, then we will try to take the value from SharedPreference.
+
 3. Create an instance of the repository class in your fragment/activity.
 4. After clicking the "Save" button, take the text value from the EditText and pass it to the **saveText(text: String)** method.
 5. When you click the "Clear" button, clear the value in the repository using the **clearText()** method.

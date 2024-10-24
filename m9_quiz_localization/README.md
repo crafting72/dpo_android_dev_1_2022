@@ -17,3 +17,7 @@ At this stage, take the project from the previous work as a basis.
 6. Check that everything is working correctly. To do this, change the system language in the phone settings.
 
 # The work of the program
+
+
+https://github.com/user-attachments/assets/d3a8e49b-0762-4ea3-b652-f6191f716cb3
+

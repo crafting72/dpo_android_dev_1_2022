@@ -1,18 +1,16 @@
-# The purpose of the work.
-Practice applying knowledge of the basic ViewGroup.
+# The purpose of the homework.
+Learn how to apply various basic components of the user interface. Create a countdown timer application using TextView, ProgressBar, Button, SeekBar/Slider.
 
-# What needs to be done.
-Create a CustomView based on an example template of a post on a social network (see the picture), using knowledge about the ViewGroup.
+# What needs to be done
+Create a countdown timer application using TextView, ProgressBar, Button, SeekBar/Slider.
 
-![image](https://github.com/user-attachments/assets/04df73f5-9d8d-429c-8723-e50f51082b56)
-
-The layout should be indented (all indents in the 16dp layout).
-
-CustomView should be embedded in main_activity.xml and displayed when the application is launched.
-
-The texts inside the "Top Row" and "Bottom Row" widgets must be configured from the MainActivity code. For example: from the MainActivity code, configure the CustomView so that it displays "top line configured from code", "bottom line configured from code".
+- Create an empty Android project.
+- Prepare the styles and themes needed for the project, add resources; create a drawable that will be used to display progress in the ProgressBar component.
+- Make up the layout. The text is on top, centered on the ProgressBar, and inside it is a TextView for displaying progress. Below is the SeekBar/Slider for setting the time. At the very bottom there is an outlined Button for starting and stopping the timer.
+- The last step is the code. Describe the logic of the program in the main Activity.
 
 # The work of the program
 
-![](https://github.com/user-attachments/assets/4f40e65b-8fef-48f1-8668-d8891f36ef95)
+
+https://github.com/user-attachments/assets/ec94d531-5995-4aab-bc61-092af27a50e8
 

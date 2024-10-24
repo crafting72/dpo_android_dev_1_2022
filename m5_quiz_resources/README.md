@@ -21,5 +21,4 @@ At this stage, you are provided with an application template with logic, resourc
 10. Add the Internet connection permission in your manifest file.
 11. Create the first screen in the application — the user's welcome screen, from which he will already go to the main quiz screen. On the welcome screen (if you created a project from the Empty Views Activity template, then this will be the only screen of your application at the moment), add the image of the welcome_picture (archived in SVG vector format) and the "Continue" button.
 
-12. # The work of the program
-13. 
+# The work of the program

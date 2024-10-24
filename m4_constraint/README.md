@@ -1,16 +1,14 @@
-# The purpose of the homework.
-Learn how to apply various basic components of the user interface. Create a countdown timer application using TextView, ProgressBar, Button, SeekBar/Slider.
+# The purpose of the work
+Apply layout knowledge using ConstraintLayout to create a typical layout of a mobile application.
 
 # What needs to be done
-Create a countdown timer application using TextView, ProgressBar, Button, SeekBar/Slider.
+Create a screen based on this layout, using only ConstraintLayout as the only ViewGroup.
 
-- Create an empty Android project.
-- Prepare the styles and themes needed for the project, add resources; create a drawable that will be used to display progress in the ProgressBar component.
-- Make up the layout. The text is on top, centered on the ProgressBar, and inside it is a TextView for displaying progress. Below is the SeekBar/Slider for setting the time. At the very bottom there is an outlined Button for starting and stopping the timer.
-- The last step is the code. Describe the logic of the program in the main Activity.
+![image](https://github.com/user-attachments/assets/c16e3428-9744-4a66-89d0-3638b1aa002e)
 
-# The work of the program
-
-
-https://github.com/user-attachments/assets/ec94d531-5995-4aab-bc61-092af27a50e8
-
+# Requirements:
+- All indents, except for the indentation of the button from the image, are 16 dp.
+- The Play button has dimensions of 80x80.
+- The "Rewind" and "Fast forward" buttons are 40x40 dp in size and are centered relative to the Play button.
+- The album cover is aligned to the center of the screen both horizontally and vertically.
+- The TextView "Artist" and "Song Name" are aligned horizontally relative to the screen.

@@ -1,20 +1,19 @@
-# The purpose of the task.
-Consolidate your knowledge of text fields and buttons.
+# The purpose of the work.
+Practice applying knowledge of the basic ViewGroup.
 
 # What needs to be done.
-It is necessary to develop a small counter application for counting passengers entering the bus. The application should look something like this:
-![](https://github.com/user-attachments/assets/0892daa6-6a94-429a-9c11-bf062a11b468)
+Create a CustomView based on an example template of a post on a social network (see the picture), using knowledge about the ViewGroup.
 
-- Pressing the "+" and "-" buttons changes the value of the counter and test fields to "+1" and "-1", respectively. You cannot set a value less than 0.
-- The Reset button not only resets the counter, but also returns the application to its original state (screenshot 1).
-- There are 49 seats on the bus. We want to send buses as full as possible, but we must not exceed them. Too many passengers is a reason for immediate departure. 
-- If all the seats are free, the text in the middle is green, the "—" button is unavailable.
-- When the number of passengers is from 1 to 49, the text is blue, the buttons are available. The Reset button is invisible.
-- When the number of passengers is 50 and above, the text is red, the "Reset" button appears.
+![image](https://github.com/user-attachments/assets/04df73f5-9d8d-429c-8723-e50f51082b56)
 
-# The work of the program.
+The layout should be indented (all indents in the 16dp layout).
 
+CustomView should be embedded in main_activity.xml and displayed when the application is launched.
 
+The texts inside the "Top Row" and "Bottom Row" widgets must be configured from the MainActivity code. For example: from the MainActivity code, configure the CustomView so that it displays "top line configured from code", "bottom line configured from code".
 
-https://github.com/user-attachments/assets/03c81105-8902-485c-aac2-70dcba2ebe3c
+# The work of the program
+
+![](https://github.com/user-attachments/assets/4f40e65b-8fef-48f1-8668-d8891f36ef95)
+
 

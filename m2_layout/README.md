@@ -1,3 +1,5 @@
+
+https://github.com/user-attachments/assets/6d2f68b8-e977-47ea-9a66-0c9b0fec6c57
 # The purpose of the task.
 Consolidate your knowledge of text fields and buttons.
 
@@ -15,5 +17,6 @@ It is necessary to develop a small counter application for counting passengers e
 # The work of the program.
 
 
-https://github.com/user-attachments/assets/9995fd76-1cf3-49ec-9af3-ee5f0d1133f0
+
+https://github.com/user-attachments/assets/03c81105-8902-485c-aac2-70dcba2ebe3c
 

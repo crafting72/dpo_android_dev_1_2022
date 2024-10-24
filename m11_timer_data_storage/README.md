@@ -14,10 +14,15 @@ Let's create a single-screen application that allows you to enter data and write
   - a button with the text "Clear" (Button);
   - a text field (TextField).
 2. Create a Repository class that will contain several methods:
+  
   **getDataFromSharedPreference(): String?** — will get the value from SharedPreference;
+  
   **getDataFromLocalVariable(): String?** — will get the value, return the value of the local variable;
+  
   **saveText(text: String)** — will write values to both SharedPreference and local variable.
+  
   **clearText()** — will clear the value in both SharedPreference and local variable.
+  
   **getText(): String** — will get the value from sources: first it will try to take the value of a local variable; if it is null, then we will try to take the value from SharedPreference.
 3. Create an instance of the repository class in your fragment/activity.
 4. After clicking the "Save" button, take the text value from the EditText and pass it to the **saveText(text: String)** method.

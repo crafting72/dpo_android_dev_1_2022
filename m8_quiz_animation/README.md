@@ -16,3 +16,7 @@ The procedure of actions:
 5. Add any finished animation using Lottie to the Results screen.
 
 # The work of the program
+
+
+https://github.com/user-attachments/assets/cdc17341-25f3-44bb-a66d-4ddd851d9e3f
+

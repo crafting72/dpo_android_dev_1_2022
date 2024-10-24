@@ -10,3 +10,7 @@ Create a countdown timer application using TextView, ProgressBar, Button, SeekBa
 - The last step is the code. Describe the logic of the program in the main Activity.
 
 # The work of the program
+
+
+https://github.com/user-attachments/assets/ec94d531-5995-4aab-bc61-092af27a50e8
+

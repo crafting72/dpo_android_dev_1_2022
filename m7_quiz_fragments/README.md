@@ -17,6 +17,7 @@ The procedure of actions:
 3. Add three screens to the project, create markup for them and fill them with data. Use the styles, themes, and resources that came from the results of previous modules.
 4. **The welcome screen** should contain minimal information (actually, the greeting), as well as the "Start" button, which should take the user to the next "Survey" screen.
 5. **The survey screen** should consist of a questionnaire of three questions, the data for which should be taken from the object QuizStorage. If you have copied the entire project from the Project Resources module to the folder of the current module, then this object should be stored in the following path:
+
 ![image](https://github.com/user-attachments/assets/1cc81eca-ea82-4a56-8336-1e358adc87f4)
 
 Implement the markup for this screen using the ScrollView component, which allows you to scroll through the screen. 
@@ -44,3 +45,7 @@ There should also be two buttons on this screen:
     - Screen 3, your phone's Back button: returns to the welcome screen.
 
 # The work of the program
+
+
+https://github.com/user-attachments/assets/9e295c18-630f-4946-b669-2f7329aa7dfa
+

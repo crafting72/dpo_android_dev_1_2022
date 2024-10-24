@@ -1,5 +1,3 @@
-
-https://github.com/user-attachments/assets/6d2f68b8-e977-47ea-9a66-0c9b0fec6c57
 # The purpose of the task.
 Consolidate your knowledge of text fields and buttons.
 

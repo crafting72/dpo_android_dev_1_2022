@@ -10,4 +10,10 @@ Create a search screen:
 2. Make sure that the search button is blocked if there are less than three characters in the search bar or a search is underway.
 3. Set the progress to be displayed after entering the text and clicking on the search.
 4. Simulate the query execution process using coroutine and the delay function, as shown in the video.
-5. Make sure that after the search is completed, the progress disappears and the text "Nothing was found for the query *<query text>*" is displayed.
+5. Make sure that after the search is completed, the progress disappears and the text "Nothing was found for the query *query text*" is displayed.
+
+# The work of the program
+
+
+https://github.com/user-attachments/assets/cf25fdc5-cc64-4974-9e51-942b04552939
+
